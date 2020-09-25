@@ -1,0 +1,61 @@
+body{
+  background-color: #ffdc73;
+}
+
+div p{ /*makes bio paragraph text smaller*/
+  font-size: 10px;
+}
+
+h1{
+  color:   	#a67c00;
+  text-align: center;
+}
+
+h2{
+  color:   	#bf9b30;
+  text-align: center;
+}
+
+img{
+  border: 10px inset  	#ffcf40;
+}
+
+strong{
+  color: 	#a67c00;
+}
+
+th{
+  color: 	#a67c00;
+}
+
+h1 + p{ /*makes shortbio text larger*/
+  font-size: 15px;
+}
+
+.bio{
+  border: 5px ridge #ffbf00;
+  background-color: #fdfd66;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+.contact{
+  border: 5px groove #fdfd66;
+  background-color:  	#ffcf40;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 5px;
+}
+
+.quals{
+  border: 5px ridge #ffbf00;
+  background-color: #fdfd66;
+  font-family: sans-serif;
+  padding: 3px;
+  position:absolute;
+  top:150px; /*aligns table with image*/
+}
+
+#shortbio{ /*csslint wants to kill me for this*/
+  font-family: monospace;
+}
